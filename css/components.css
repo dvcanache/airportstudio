@@ -1,0 +1,144 @@
+/* ============================================================
+   components.css — Airport Studio
+   Propósito: Elementos de UI reutilizables.
+   Incluye: Botones, Tarjetas de servicio, Tickets de paquetes,
+   Tarjetas de portafolio, Formulario de contacto,
+   Inputs y Stats.
+============================================================ */
+
+/* ════════════════════════════════════
+   BOTONES
+════════════════════════════════════ */
+
+.btn-primary {
+  background: var(--white);
+  color: var(--black);
+  padding: 18px 52px;
+  font-size: 12px;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: none;
+  display: inline-block;
+  transition: transform .3s, box-shadow .3s;
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 24px 64px rgba(242, 242, 240, .12);
+}
+
+.btn-ghost {
+  border: 1px solid var(--border-strong);
+  color: var(--white);
+  padding: 18px 52px;
+  font-size: 12px;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: none;
+  transition: border-color .3s;
+}
+
+.btn-ghost:hover {
+  border-color: var(--white);
+}
+
+/* ════════════════════════════════════
+   SCROLL HINT
+════════════════════════════════════ */
+
+.scroll-hint {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--gray);
+  font-size: 10px;
+  letter-spacing: .3em;
+  text-transform: uppercase;
+}
+
+.scroll-line {
+  width: 40px;
+  height: 1px;
+  background: var(--gray);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+/* ════════════════════════════════════
+   TARJETAS DE SERVICIO (.svc)
+════════════════════════════════════ */
+
+.svc {
+  padding: 52px 40px;
+  border-right: 1px solid var(--border);
+  position: relative;
+  overflow: hidden;
+  cursor: none;
+  transition: background .4s;
+}
+
+.svc:last-child {
+  border-right: none;
+}
+
+.svc::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--white);
+  transition: width .5s;
+}
+
+.svc:hover::after {
+  width: 100%;
+}
+
+.svc:hover {
+  background: rgba(242, 242, 240, .03);
+}
+
+.svc-num {
+  font-family: var(--font-display);
+  font-size: 72px;
+  color: rgba(242, 242, 240, .06);
+  line-height: 1;
+  margin-bottom: 24px;
+}
+
+.svc-name {
+  font-family: var(--font-heading);
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.svc-text {
+  color: var(--gray);
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+.svc-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--white);
+  font-size: 11px;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  margin-top: 28px;
+  text-decoration: none;
+  transition: gap .3s;
+  cursor: none;
+}
+
+.svc:hover .svc-link {
+  gap: 16px;
+}
+
+

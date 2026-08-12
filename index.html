@@ -1,0 +1,745 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Airport Studio — Agencia de Marketing Digital en Venezuela. Estrategia, diseño y contenido de alto impacto para marcas que quieren despegar."
+    />
+    <meta
+      name="keywords"
+      content="agencia de marketing, marketing digital, Venezuela, social media, branding, diseño web, contenido digital"
+    />
+    <meta name="author" content="Airport Studio" />
+
+    <!-- Open Graph (para WhatsApp, Instagram, LinkedIn al compartir el link) -->
+    <meta property="og:title" content="Airport Studio — Agencia de Marketing" />
+    <meta property="og:description" content="Tu marca en primera clase, el resto en la multitud." />
+    <meta property="og:image" content="assets/img/logo-airport.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_VE" />
+
+    <!-- Twitter/X Card (para cuando compartan en X) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Airport Studio — Agencia de Marketing" />
+    <meta
+      name="twitter:description"
+      content="Tu marca en primera clase, el resto en la multitud."
+    />
+    <meta name="twitter:image" content="assets/img/logo-airport.jpg" />
+    <meta
+      name="description"
+      content="Airport Studio — Agencia de Marketing Digital en Venezuela. Estrategia, diseño y contenido de alto impacto para marcas que quieren despegar."
+    />
+    <meta name="theme-color" content="#060606" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <title>Airport Studio — Agencia de Marketing</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="assets/img/logo-airport.jpg" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@400;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- Styles -->
+    <!-- ============================================================
+       CSS Modular — Airport Studio
+       Orden de carga: base → layout → components → pages → responsive
+  ============================================================ -->
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/pages.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/tarjetas.css" />
+    <link rel="stylesheet" href="css/features-stats.css" />
+    <link rel="stylesheet" href="css/formulario.css" />
+  </head>
+  <body>
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <nav id="nav">
+      <a href="#" class="nav-logo">
+        <div class="nav-logo-img">
+          <img src="assets/img/logo-airport.jpg" alt="Airport Studio" />
+        </div>
+        <div class="nav-brand">
+          <span class="nav-brand-name">AIRPORT STUDIO</span
+          ><span class="nav-brand-sub">Marketing Agency</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#proceso">Proceso</a></li>
+        <li><a href="#paquetes">Paquetes</a></li>
+        <li><a href="#portafolio">Portafolio</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <a href="#contacto" class="nav-cta">Trabajemos</a>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-orb hero-orb-1"></div>
+      <div class="hero-orb hero-orb-2"></div>
+      <div class="hero-carousel">
+        <div class="hero-carousel-track">
+          <div class="hero-carousel-slide active">
+            <img src="assets/img/logo-airport.jpg" alt="AirportStudio" />
+          </div>
+          <div class="hero-carousel-slide">
+            <img src="assets/img/contenido-publicidad.jpeg" alt="slide 1" />
+          </div>
+          <div class="hero-carousel-slide">
+            <img src="assets/img/marketing.jpeg" alt="slide 2" />
+          </div>
+          <div class="hero-carousel-slide">
+            <img src="assets/img/Indentidad-visual.jpeg" alt="slide 3" />
+          </div>
+          <div class="hero-carousel-slide">
+            <img src="assets/img/publicidad.jpeg" alt="slide 4" />
+          </div>
+        </div>
+        <div class="hero-carousel-dots">
+          <button class="hero-carousel-dot active" aria-label="Slide 1"></button>
+          <button class="hero-carousel-dot" aria-label="Slide 2"></button>
+          <button class="hero-carousel-dot" aria-label="Slide 3"></button>
+          <button class="hero-carousel-dot" aria-label="Slide 4"></button>
+          <button class="hero-carousel-dot" aria-label="Slide 5"></button>
+        </div>
+      </div>
+      <div class="hero-overline">Agencia de Marketing Digital</div>
+      <h1 class="hero-title">ELEVA<br />TU <span class="hollow">MARCA</span><br />AL LÍMITE</h1>
+      <div class="hero-divider"></div>
+      <div class="hero-bottom">
+        <p class="hero-desc">
+          Estrategia, creatividad y ejecución de alto impacto. En Airport Studio hacemos despegar
+          marcas que están listas para dominar su mercado.
+        </p>
+        <div class="hero-actions">
+          <a href="#contacto" class="btn-primary">Iniciar Proyecto →</a>
+          <div class="scroll-hint">
+            <div class="scroll-line"></div>
+            Scroll para explorar
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="ticker">
+      <div class="ticker-track">
+        <div class="ticker-item">
+          BRANDING
+          <div class="ticker-dot"></div>
+          SOCIAL MEDIA
+          <div class="ticker-dot"></div>
+          SEO &amp; SEM
+          <div class="ticker-dot"></div>
+          DISEÑO WEB
+          <div class="ticker-dot"></div>
+          CONTENIDO DIGITAL
+          <div class="ticker-dot"></div>
+          ESTRATEGIA
+          <div class="ticker-dot"></div>
+          PAID MEDIA
+          <div class="ticker-dot"></div>
+          ANALYTICS
+          <div class="ticker-dot"></div>
+        </div>
+        <div class="ticker-item">
+          BRANDING
+          <div class="ticker-dot"></div>
+          SOCIAL MEDIA
+          <div class="ticker-dot"></div>
+          SEO &amp; SEM
+          <div class="ticker-dot"></div>
+          DISEÑO WEB
+          <div class="ticker-dot"></div>
+          CONTENIDO DIGITAL
+          <div class="ticker-dot"></div>
+          ESTRATEGIA
+          <div class="ticker-dot"></div>
+          PAID MEDIA
+          <div class="ticker-dot"></div>
+          ANALYTICS
+          <div class="ticker-dot"></div>
+        </div>
+      </div>
+    </div>
+
+    <section class="services" id="servicios">
+      <div class="services-header reveal">
+        <h2 class="services-title">LO QUE<br />HACEMOS</h2>
+        <p class="services-desc">
+          Cada servicio está diseñado para generar resultados medibles. Trabajamos con marcas que
+          exigen excelencia.
+        </p>
+      </div>
+      <div class="services-grid reveal">
+        <div class="svc">
+          <div class="svc-num">01</div>
+          <h3 class="svc-name">Estrategia de Marca</h3>
+          <p class="svc-text">
+            Construimos identidades que comunican autoridad y generan confianza en cada punto de
+            contacto con tu audiencia.
+          </p>
+          <a href="#contacto" class="svc-link">Explorar →</a>
+        </div>
+        <div class="svc">
+          <div class="svc-num">02</div>
+          <h3 class="svc-name">Social Media</h3>
+          <p class="svc-text">
+            Comunidades que convierten. Contenido que conecta. Gestión profesional de todas tus
+            plataformas digitales.
+          </p>
+          <a href="#contacto" class="svc-link">Explorar →</a>
+        </div>
+        <div class="svc">
+          <div class="svc-num">03</div>
+          <h3 class="svc-name">Publicidad Digital</h3>
+          <p class="svc-text">
+            Campañas de paid media con ROI comprobado. Google Ads, Meta Ads, TikTok y todas las
+            plataformas clave.
+          </p>
+          <a href="#contacto" class="svc-link">Explorar →</a>
+        </div>
+        <div class="svc">
+          <div class="svc-num">04</div>
+          <h3 class="svc-name">Diseño Web</h3>
+          <p class="svc-text">
+            Sitios que impresionan y convierten. Diseño ejecutivo, desarrollo ágil y optimización
+            continua.
+          </p>
+          <a href="#contacto" class="svc-link">Explorar →</a>
+        </div>
+        <div class="svc">
+          <div class="svc-num">05</div>
+          <h3 class="svc-name">SEO &amp; Contenido</h3>
+          <p class="svc-text">
+            Posicionamiento orgánico sólido y contenido estratégico que atrae, educa y convierte a
+            tu cliente ideal.
+          </p>
+          <a href="#contacto" class="svc-link">Explorar →</a>
+        </div>
+        <div class="svc">
+          <div class="svc-num">06</div>
+          <h3 class="svc-name">Analytics &amp; Data</h3>
+          <p class="svc-text">
+            Decisiones basadas en datos reales. Dashboards, reportes y optimización continua de las
+            métricas clave.
+          </p>
+          <a href="#contacto" class="svc-link">Explorar →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="packages" id="paquetes">
+      <div class="packages-inner">
+        <div class="section-tag reveal" style="justify-content: center; margin-bottom: 20px">
+          Nuestros Paquetes
+        </div>
+        <h2 class="packages-title reveal">ELIGE TU<br />CLASE DE VUELO</h2>
+        <p class="packages-sub reveal">
+          Tres niveles de servicio diseñados para cada etapa de tu marca.
+        </p>
+        <div class="pkg-grid reveal">
+          <div class="pkg-card">
+            <div class="pkg-ticket ticket-tourist">
+              <div class="tk-header">
+                <div class="tk-brand">AIRPORT<span>STUDIO</span></div>
+                <div class="tk-header-right">CARACTERISTICAS</div>
+              </div>
+              <div class="tk-body">
+                <div class="tk-left">
+                  <div class="tk-paquete-label">PAQUETE</div>
+                  <div class="tk-class-name">TURIST CLASS <span class="tk-plane">✈</span></div>
+                  <div class="tk-clase">CLASE: TURISTA</div>
+                  <div class="tk-valido-label">VALIDO PARA:</div>
+                  <div class="tk-valido-text">
+                    8 PUBLICACIONES AL MES, 6-8 HISTORIAS<br />IDENTIDAD VISUAL (MANUAL DE MARCA)
+                  </div>
+                </div>
+                <div class="tk-right">
+                  <div class="tk-right-title">CARACTERÍSTICAS</div>
+                  <ul class="tk-feat-list">
+                    <li>Identidad visual definida y bio optimizada.</li>
+                    <li>Organización de historias destacadas.</li>
+                    <li>Calendario simple de contenido.</li>
+                  </ul>
+                  <span class="tk-right-plane">✈</span>
+                  <div class="tk-right-code">TC-01</div>
+                </div>
+              </div>
+              <div class="tk-footer">
+                <div class="tk-barcode">
+                  <div class="tk-bar" style="width: 2px"></div>
+                  <div class="tk-bar" style="width: 1px"></div>
+                  <div class="tk-bar" style="width: 3px"></div>
+                  <div class="tk-bar" style="width: 1px"></div>
+                  <div class="tk-bar" style="width: 2px"></div>
+                  <div class="tk-bar" style="width: 4px"></div>
+                  <div class="tk-bar" style="width: 1px"></div>
+                  <div class="tk-bar" style="width: 2px"></div>
+                  <div class="tk-bar" style="width: 1px"></div>
+                  <div class="tk-bar" style="width: 3px"></div>
+                  <div class="tk-bar" style="width: 2px"></div>
+                  <div class="tk-bar" style="width: 1px"></div>
+                  <div class="tk-bar" style="width: 4px"></div>
+                  <div class="tk-bar" style="width: 1px"></div>
+                  <div class="tk-bar" style="width: 2px"></div>
+                  <div class="tk-bar" style="width: 3px"></div>
+                  <div class="tk-bar" style="width: 1px"></div>
+                  <div class="tk-bar" style="width: 2px"></div>
+                  <div class="tk-bar" style="width: 1px"></div>
+                  <div class="tk-bar" style="width: 4px"></div>
+                </div>
+                <div class="tk-footer-mid">TURIST<br />CLASS</div>
+                <div class="tk-footer-code">TC-01</div>
+              </div>
+            </div>
+            <div class="pkg-desc">
+              <p>
+                Ideal para marcas que están en la sala de espera y necesitan pista para despegar.
+              </p>
+              <ul class="pkg-list">
+                <li>8 publicaciones mensuales</li>
+                <li>Identidad visual definida</li>
+                <li>Organización de perfil</li>
+              </ul>
+              <a href="#contacto" class="pkg-cta">Reservar Asiento →</a>
+            </div>
+          </div>
+          <div class="pkg-card pkg-featured">
+            <div class="pkg-badge">MÁS POPULAR</div>
+            <div class="pkg-ticket ticket-biz">
+              <div class="tk-header">
+                <div class="tk-brand">AIRPORT<span>STUDIO</span></div>
+                <div class="tk-header-right">CARACTERISTICAS</div>
+              </div>
+              <div class="tk-body">
+                <div class="tk-left">
+                  <div class="tk-paquete-label">PAQUETE</div>
+                  <div class="tk-class-name">BUSINESS CLASS <span class="tk-plane">✈</span></div>
+                  <div class="tk-clase">CLASE: EJECUTIVA</div>
+                  <div class="tk-valido-label">VALIDO PARA:</div>
+                  <div class="tk-valido-text">
+                    12 PUBLICACIONES AL MES, 12-15 HISTORIAS<br />IDENTIDAD VISUAL PRO (MANUAL +
+                    PLANTILLAS)
+                  </div>
+                </div>
+                <div class="tk-right">
+                  <div class="tk-right-title">CARACTERÍSTICAS</div>
+                  <ul class="tk-feat-list">
+                    <li>Estrategia de contenido definida.</li>
+                    <li>Gestión de comunidad básica.</li>
+                    <li>Calendario completo de contenido.</li>
+                  </ul>
+                  <span class="tk-right-plane">✈</span>
+                  <div class="tk-right-code">BC-02</div>
+                </div>
+              </div>
+              <div class="tk-footer">
+                <div class="tk-barcode">
+                  <div class="tk-bar" style="width: 2px"></div>
+                  <div class="tk-bar" style="width: 1px"></div>
+                  <div class="tk-bar" style="width: 3px"></div>
+                  <div class="tk-bar" style="width: 1px"></div>
+                  <div class="tk-bar" style="width: 2px"></div>
+                  <div class="tk-bar" style="width: 4px"></div>
+                  <div class="tk-bar" style="width: 1px"></div>
+                  <div class="tk-bar" style="width: 2px"></div>
+                  <div class="tk-bar" style="width: 1px"></div>
+                  <div class="tk-bar" style="width: 3px"></div>
+                  <div class="tk-bar" style="width: 2px"></div>
+                  <div class="tk-bar" style="width: 1px"></div>
+                  <div class="tk-bar" style="width: 4px"></div>
+                  <div class="tk-bar" style="width: 1px"></div>
+                  <div class="tk-bar" style="width: 2px"></div>
+                  <div class="tk-bar" style="width: 3px"></div>
+                  <div class="tk-bar" style="width: 1px"></div>
+                  <div class="tk-bar" style="width: 2px"></div>
+                  <div class="tk-bar" style="width: 1px"></div>
+                  <div class="tk-bar" style="width: 4px"></div>
+                </div>
+                <div class="tk-footer-mid">BUSINESS<br />CLASS</div>
+                <div class="tk-footer-code">BC-02</div>
+              </div>
+            </div>
+            <div class="pkg-desc">
+              <p>Para negocios que quieren crecer en redes con estrategia y consistencia real.</p>
+              <ul class="pkg-list">
+                <li>12 publicaciones + contenido estratégico</li>
+                <li>Calendario completo</li>
+                <li>Gestión de comunidad</li>
+              </ul>
+              <a href="#contacto" class="pkg-cta">Reservar Asiento →</a>
+            </div>
+          </div>
+          <div class="pkg-card">
+            <div class="pkg-ticket ticket-first">
+              <div class="tk-header">
+                <div class="tk-brand">AIRPORT<span>STUDIO</span></div>
+                <div class="tk-header-right">CARACTERISTICAS</div>
+              </div>
+              <div class="tk-body">
+                <div class="tk-left">
+                  <div class="tk-paquete-label">PAQUETE</div>
+                  <div class="tk-class-name">FIRST CLASS <span class="tk-plane">✈</span></div>
+                  <div class="tk-clase">CLASE: PRIMERA CLASE</div>
+                  <div class="tk-valido-label">VALIDO PARA:</div>
+                  <div class="tk-valido-text">
+                    GESTIÓN INTEGRAL (PUBLICACIONES ILIMITADAS)<br />ESTRATEGIA COMPLETA DE MARCA Y
+                    CONTENIDO
+                  </div>
+                </div>
+                <div class="tk-right">
+                  <div class="tk-right-title">CARACTERÍSTICAS</div>
+                  <ul class="tk-feat-list">
+                    <li>Atención personalizada VIP.</li>
+                    <li>Informes de rendimiento detallados.</li>
+                    <li>Campañas de anuncios básicas.</li>
+                  </ul>
+                  <span class="tk-right-plane">✈</span>
+                  <div class="tk-right-code">FC-03</div>
+                </div>
+              </div>
+              <div class="tk-footer">
+                <div class="tk-barcode">
+                  <div class="tk-bar" style="width: 2px"></div>
+                  <div class="tk-bar" style="width: 1px"></div>
+                  <div class="tk-bar" style="width: 3px"></div>
+                  <div class="tk-bar" style="width: 1px"></div>
+                  <div class="tk-bar" style="width: 2px"></div>
+                  <div class="tk-bar" style="width: 4px"></div>
+                  <div class="tk-bar" style="width: 1px"></div>
+                  <div class="tk-bar" style="width: 2px"></div>
+                  <div class="tk-bar" style="width: 1px"></div>
+                  <div class="tk-bar" style="width: 3px"></div>
+                  <div class="tk-bar" style="width: 2px"></div>
+                  <div class="tk-bar" style="width: 1px"></div>
+                  <div class="tk-bar" style="width: 4px"></div>
+                  <div class="tk-bar" style="width: 1px"></div>
+                  <div class="tk-bar" style="width: 2px"></div>
+                  <div class="tk-bar" style="width: 3px"></div>
+                  <div class="tk-bar" style="width: 1px"></div>
+                  <div class="tk-bar" style="width: 2px"></div>
+                  <div class="tk-bar" style="width: 1px"></div>
+                  <div class="tk-bar" style="width: 4px"></div>
+                </div>
+                <div class="tk-footer-mid">FIRST<br />CLASS</div>
+                <div class="tk-footer-code">FC-03</div>
+              </div>
+            </div>
+            <div class="pkg-desc">
+              <p>Gestión total. Para marcas que quieren delegar todo y enfocarse en vender.</p>
+              <ul class="pkg-list">
+                <li>Gestión integral ilimitada</li>
+                <li>Atención VIP personalizada</li>
+                <li>Estrategia completa de marca</li>
+              </ul>
+              <a href="#contacto" class="pkg-cta">Reservar Asiento →</a>
+            </div>
+          </div>
+        </div>
+        <div class="pkg-bottom reveal">
+          <p>
+            ¿No sabes cuál elegir?
+            <a
+              href="#contacto"
+              style="color: var(--white); text-decoration: underline; text-underline-offset: 4px"
+              >Hablemos</a
+            >
+            y te recomendamos el plan ideal.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="why">
+      <div class="why-inner">
+        <div class="reveal">
+          <div class="section-tag">Por qué Airport Studio</div>
+          <h2 class="why-title">MARCAS QUE<br />DESPEGAN<br />DE VERDAD</h2>
+          <p class="why-text">
+            No somos una agencia más. Somos el equipo que convierte tu visión en resultados
+            tangibles, con la precisión de un vuelo ejecutivo y creatividad de primer nivel.
+          </p>
+          <div class="stats">
+            <div>
+              <div class="stat-n">120+</div>
+              <div class="stat-l">Marcas Lanzadas</div>
+            </div>
+            <div>
+              <div class="stat-n">8</div>
+              <div class="stat-l">Años de Vuelo</div>
+            </div>
+            <div>
+              <div class="stat-n">97%</div>
+              <div class="stat-l">Satisfacción</div>
+            </div>
+          </div>
+        </div>
+        <ul class="features reveal">
+          <li class="feature">
+            <div class="feature-box">✈</div>
+            <div>
+              <h4>Ejecución sin turbulencia</h4>
+              <p>
+                Entregamos en tiempo, con calidad premium y comunicación clara en cada etapa del
+                proyecto.
+              </p>
+            </div>
+          </li>
+          <li class="feature">
+            <div class="feature-box">🌐</div>
+            <div>
+              <h4>Visión global, impacto local</h4>
+              <p>
+                Estrategias que funcionan en cualquier mercado, adaptadas a tu audiencia específica.
+              </p>
+            </div>
+          </li>
+          <li class="feature">
+            <div class="feature-box">📡</div>
+            <div>
+              <h4>Data en el centro</h4>
+              <p>Cada decisión creativa está respaldada por métricas reales y análisis profundo.</p>
+            </div>
+          </li>
+          <li class="feature">
+            <div class="feature-box">◎</div>
+            <div>
+              <h4>ROI real, no métricas de vanidad</h4>
+              <p>
+                Tu inversión genera retornos medibles. Resultados concretos que hacen crecer tu
+                negocio.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="process" id="proceso">
+      <div class="section-tag reveal" style="justify-content: center; margin-bottom: 20px">
+        Nuestro Proceso
+      </div>
+      <h2 class="process-title reveal">CÓMO<br />OPERAMOS</h2>
+      <div class="process-steps reveal">
+        <div class="step">
+          <div class="step-dot">01</div>
+          <h3 class="step-name">Diagnóstico</h3>
+          <p class="step-desc">
+            Analizamos tu marca, mercado y competencia para identificar oportunidades reales de
+            crecimiento.
+          </p>
+        </div>
+        <div class="step">
+          <div class="step-dot">02</div>
+          <h3 class="step-name">Estrategia</h3>
+          <p class="step-desc">
+            Diseñamos un plan de acción personalizado con objetivos claros, KPIs y timeline
+            definido.
+          </p>
+        </div>
+        <div class="step">
+          <div class="step-dot">03</div>
+          <h3 class="step-name">Ejecución</h3>
+          <p class="step-desc">
+            Implementamos con precisión. Cada pieza creativa y cada campaña, optimizada al máximo.
+          </p>
+        </div>
+        <div class="step">
+          <div class="step-dot">04</div>
+          <h3 class="step-name">Crecimiento</h3>
+          <p class="step-desc">
+            Medimos, optimizamos y escalamos lo que funciona. Tu marca sigue despegando mes a mes.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portafolio">
+      <div class="portfolio-header reveal">
+        <h2 class="portfolio-title">TRABAJO<br />DESTACADO</h2>
+        <a href="#contacto" class="svc-link" style="margin-top: 0">Ver todos →</a>
+      </div>
+      <div class="portfolio-grid reveal">
+        <div class="p-item p-item-lg">
+          <img
+            src="assets/img/farma-rodriguez.PNG"
+            alt="Farma Rodriguez"
+            style="
+              object-fit: contain;
+              background: #fff;
+              padding: 40px 80px;
+              box-sizing: border-box;
+            "
+          />
+          <div class="p-over">
+            <div class="p-tag">Branding · Identidad Visual</div>
+            <div class="p-name">Farma Rodríguez — Logo &amp; Publicidad Digital</div>
+          </div>
+        </div>
+
+        <div class="p-item">
+          <img src="assets/img/Maurico-Trainer.jpeg" style="" />
+          <div class="p-over">
+            <div class="p-tag">Contenido Visual · Trainer</div>
+            <div class="p-name">Mauricio Sanabria — Avila Gym</div>
+          </div>
+        </div>
+        <div class="p-item">
+          <img src="assets/img/jesus-moreno.png" />
+          <div class="p-over">
+            <div class="p-tag">Diseño Web · Portafolio</div>
+            <div class="p-name">Jesús Moreno — Diseñador Gráfico</div>
+          </div>
+        </div>
+
+        <!-- ROW 3: Content pieces -->
+        <div class="p-item">
+          <img src="assets/img/contenido-publicidad.jpeg" />
+          <div class="p-over">
+            <div class="p-tag">Contenido · Publicidad</div>
+            <div class="p-name">Marketing que Despega tu Marca</div>
+          </div>
+        </div>
+        <div class="p-item">
+          <img src="assets/img/estrategia-diseño.jpeg" />
+          <div class="p-over">
+            <div class="p-tag">Estrategia · Diseño Visual</div>
+            <div class="p-name">Estrategia &amp; Diseño — Airport Studio</div>
+          </div>
+        </div>
+        <div class="p-item">
+          <img src="assets/img/Indentidad-visual.jpeg" style="" />
+          <div class="p-over">
+            <div class="p-tag">Identidad Visual · Campaña</div>
+            <div class="p-name">Exclusivo — Tu Marca en Primera Clase</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="cta-over reveal">¿Listo para despegar?</div>
+      <h2 class="cta-title reveal">
+        TU MARCA<br /><span class="hollow">MERECE</span><br />MÁS ALTO
+      </h2>
+      <p class="cta-sub reveal">
+        Una sesión de diagnóstico sin costo, sin compromiso. Hablemos de lo que tu negocio realmente
+        necesita.
+      </p>
+      <div class="cta-row reveal">
+        <a href="#contacto" class="btn-primary">Agendar Diagnóstico →</a>
+        <a href="#servicios" class="btn-ghost">Ver Servicios</a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contacto">
+      <div class="contact-inner">
+        <div class="reveal">
+          <div class="section-tag">Contacto</div>
+          <h2 class="contact-title">INICIEMOS<br />EL VUELO</h2>
+          <p class="contact-sub">
+            Cuéntanos sobre tu proyecto. Respondemos en menos de 24 horas con ideas concretas para
+            tu marca.
+          </p>
+          <div class="contact-details">
+            <div class="c-item">
+              <div class="c-item-icon">📍</div>
+              <span>Venezuela</span>
+            </div>
+            <div class="c-item">
+              <div class="c-item-icon">🕐</div>
+              <span>Lun–Vie, 9:00–18:00</span>
+            </div>
+          </div>
+        </div>
+        <div class="cform reveal">
+          <div class="frow">
+            <div class="ff">
+              <label>Nombre</label><input type="text" placeholder="Tu nombre completo" />
+            </div>
+            <div class="ff">
+              <label>Empresa</label><input type="text" placeholder="Nombre de tu empresa" />
+            </div>
+          </div>
+          <div class="ff">
+            <label>Correo Electrónico</label><input type="email" placeholder="tu@empresa.com" />
+          </div>
+          <div class="ff">
+            <label>Servicio de Interés</label>
+            <select>
+              <option value="" disabled selected>Selecciona un servicio</option>
+              <option>Estrategia de Marca</option>
+              <option>Social Media</option>
+              <option>Publicidad Digital</option>
+              <option>Diseño Web</option>
+              <option>SEO &amp; Contenido</option>
+              <option>Paquete Completo</option>
+            </select>
+          </div>
+          <div class="ff">
+            <label>Mensaje</label
+            ><textarea
+              rows="4"
+              placeholder="Cuéntanos sobre tu proyecto, objetivos y presupuesto aproximado…"
+            ></textarea>
+          </div>
+          <button class="submit" id="submit-btn" type="button">Enviar Mensaje →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="f-logo">
+        <img src="assets/img/logo-airport.jpg" alt="Airport Studio" /> AIRPORT STUDIO<sup
+          style="font-size: 9px; color: var(--gray)"
+          >®</sup
+        >
+      </div>
+      <div class="f-copy">© 2026 Airport Studio. Todos los derechos reservados.</div>
+      <div class="f-social">
+        <a
+          href="https://www.instagram.com/airportstudio_/"
+          class="soc"
+          aria-label="Instagram"
+          target="_blank"
+          rel="noopener"
+        >
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a
+          href="https://www.tiktok.com/@airportstudio.ve"
+          class="soc"
+          aria-label="TikTok"
+          target="_blank"
+          rel="noopener"
+        >
+          <i class="fa-brands fa-tiktok"></i>
+        </a>
+      </div>
+    </footer>
+
+    <!-- Main Script -->
+    <script type="module" src="dist/app/bootstrap.js"></script>
+  </body>
+</html>
