@@ -308,10 +308,9 @@
   overflow: hidden;
   background: #111110;
   cursor: none;
-}
-
-.p-item-lg {
-  grid-column: span 0;
+  aspect-ratio: 4 / 3;
+  min-height: 240px;
+  border-radius: 4px;
 }
 
 .p-item > img {

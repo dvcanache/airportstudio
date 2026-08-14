@@ -29,6 +29,12 @@
   }
 
   /* ── Hero ── */
+  .hero-main {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
   .hero-bottom {
     flex-direction: column;
     align-items: flex-start;
@@ -112,10 +118,4 @@
     top: -12px;
   }
 
-}
-
-@media (max-width: 768px) {
-  .hero-carousel {
-    display: none;
-  }
 }
