@@ -5,6 +5,17 @@
    Cargado al final para sobrescribir correctamente.
 ============================================================ */
 
+@media (max-width: 768px), (pointer: coarse) {
+  body {
+    cursor: auto;
+  }
+
+  .cursor,
+  .cursor-ring {
+    display: none !important;
+  }
+}
+
 @media (max-width: 768px) {
 
   /* ── Navegación ── */
