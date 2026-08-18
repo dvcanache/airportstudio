@@ -6,7 +6,8 @@
   "scripts": {
     "test": "vitest run",
     "test:watch": "vitest",
-    "build": "tsc",
+    "build:css": "node scripts/bundle-css.js",
+    "build": "tsc && node scripts/bundle-css.js",
     "typecheck": "tsc --noEmit",
     "watch": "tsc --watch",
     "lint": "eslint 'src/**/*.ts'",

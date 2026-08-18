@@ -125,8 +125,9 @@
 }
 
 .hero-title .hollow {
-  -webkit-text-stroke: 1.5px rgba(242, 242, 240, 0.35);
-  color: transparent;
+  color: var(--white);
+  -webkit-text-stroke: 1.5px var(--white);
+  opacity: 0.92;
 }
 
 .hero-divider {
@@ -358,8 +359,9 @@
 }
 
 .cta-title .hollow {
-  -webkit-text-stroke: 1px rgba(242, 242, 240, .2);
-  color: transparent;
+  color: var(--white);
+  -webkit-text-stroke: 1.5px var(--white);
+  opacity: 0.92;
 }
 
 .cta-sub {

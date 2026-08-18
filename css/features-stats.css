@@ -52,6 +52,7 @@
   flex-shrink: 0;
 }
 
+.feature h3,
 .feature h4 {
   font-family: var(--font-heading);
   font-size: 15px;
